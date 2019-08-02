@@ -1,9 +1,9 @@
 {
-  "name": "app",
+  "name": "@pro/app",
   "version": "0.0.0",
   "description": "> TODO: description",
   "license": "MIT",
-  "main": "lib/app.js",
+  "main": "index.js",
   "directories": {
   },
   "files": [],
@@ -11,6 +11,6 @@
     "start": "node ."
   },
   "dependencies": {
-    "lib": "^0.0.0"
+    "@pro/lib": "^0.0.0"
   }
 }
