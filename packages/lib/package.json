@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "> TODO: description",
   "license": "MIT",
-  "main": "index.js",
-  "files": [],
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "files": [
+    "src/**/*"
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.3.0",
+    "react": "16.8.6"
   }
 }

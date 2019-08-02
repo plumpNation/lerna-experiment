@@ -7,9 +7,22 @@
   "directories": {},
   "files": [],
   "scripts": {
-    "start": "node ."
+    "start": "parcel src/index.html"
   },
   "dependencies": {
-    "@pro/lib": "^0.0.1"
+    "@pro/lib": "^0.0.1",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-react": "7.0.0",
+    "@types/node": "^12.6.9",
+    "@types/react": "16.8.24",
+    "@types/react-dom": "16.8.5",
+    "parcel-bundler": "1.12.3",
+    "react-hot-loader": "4.12.10",
+    "typescript": "3.5.3"
   }
 }
